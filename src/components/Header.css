@@ -1,0 +1,29 @@
+.header_wrapper {
+  background: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.header_wrap {
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 150px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  object-fit: contain;
+}
+/* .add_post { */
+/* background-color: lightgray; */
+/* } */
+
+.header-right {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+}

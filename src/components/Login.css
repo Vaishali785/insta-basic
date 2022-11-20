@@ -1,0 +1,45 @@
+/* .login_modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  bgcolor: background.paper;
+  border: 2px solid #000;
+  boxShadow: 24;
+  p: 4;
+} */
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_btn:hover {
+  background-color: none;
+}
+
+.profile_btn span {
+  display: none;
+}
+.profile_btn:hover .header_avatar {
+  transform: scale(1.1);
+  transition: 0.5s all ease-in-out;
+}
+
+.hide {
+  display: none !important;
+}
+
+.logout_btn {
+  /* display: inline-block; */
+  position: absolute !important;
+  bottom: -50px;
+  right: 35px;
+  background: white !important;
+  padding: 10px !important;
+  border: 1px solid blue !important;
+  border-radius: 10px !important;
+  border-top-right-radius: 0 !important;
+  /* transition: 5s all ease-in-out; */
+}
